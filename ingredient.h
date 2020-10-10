@@ -12,7 +12,6 @@ public:
     Ingredient();
     Ingredient(const std::string &name, const std::string &unit, const int &quantity); //init
     Ingredient(const Ingredient &copy); //cp
-    ~recipe() = default; //rm
 
     std::string get_name() const { return name; }
     std::string get_unit() const { return unit; }
