@@ -5,8 +5,8 @@
 
 class Ingredient {
 public:
-    static const std::string default_name = "pickle";
-    static const std::string default_unit = "thing";
+    inline static const std::string default_name = "pickle";
+    inline static const std::string default_unit = "thing";
     static const int default_quantity = 1;
 
     Ingredient();
