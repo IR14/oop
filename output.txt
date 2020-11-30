@@ -1,5 +1,5 @@
-kukold
-smol
-fast
+pickle
+gr
+chop
 5
-12
+11
