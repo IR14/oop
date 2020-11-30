@@ -1,0 +1,5 @@
+kukold
+smol
+fast
+5
+12

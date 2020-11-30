@@ -49,7 +49,7 @@ void Ingredient::set_operation(const std::string &operation) {
 }
 
 void Ingredient::set_time(const int &time) {
-    if (duration > 0)
+    if (time > 0)
         this->time = time;
     else
         this->time = default_time;

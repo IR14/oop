@@ -3,11 +3,11 @@
 
 #include <string>
 
-class Ingredient {
+class Ingredient  {
 public:
-    static const std::string default_name = "pickle";
-    static const std::string default_unit = "thing";
-    static const std::string default_operation = "cut";
+    inline static const std::string default_name = "pickle";
+    inline static const std::string default_unit = "thing";
+    inline static const std::string default_operation = "cut";
     static const int default_time = 10;
     static const int default_quantity = 1;
 

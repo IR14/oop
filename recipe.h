@@ -2,7 +2,7 @@
 #define RECIPE_H
 #include "ingredient.h"
 
-class Recipe {
+class Recipe : public Ingredient {
 private:
     int size = 0;
     struct Queue
@@ -15,8 +15,8 @@ private:
 
 public:
     Recipe();
+    virtual ~Recipe() {};
     Recipe(const Recipe &copy); //cp
-    ~Recipe() = default; //rm
 
     Recipe::Queue *get_fst() const { return first; }
     Recipe::Queue *get_lst() const;
